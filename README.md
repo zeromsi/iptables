@@ -7,7 +7,7 @@ So, the structure is: iptables -> Tables -> Chains -> Rules.
 ### IPTables has the following 4 built-in tables.
 
 
-Filter Table: Filter is default table for iptables. So, if you don’t define you own table, you’ll be using filter table. Iptables’s filter table has the following built-in chains.
+Filter Table: Filter is the default table for iptables. So, if you don’t define your own table, you’ll be using filter table. Iptables’s filter table has the following built-in chains.
 
 - INPUT chain – Incoming to firewall. For packets coming to the local server.
 - OUTPUT chain – Outgoing from firewall. For packets generated locally and going out of the local server.
